@@ -1,0 +1,16 @@
+{
+  "name": "JavaScript_Avance_my_paint",
+  "version": "0.0.0",
+  "authors": [
+    "viller_m <viller_m@epitech.eu>"
+  ],
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

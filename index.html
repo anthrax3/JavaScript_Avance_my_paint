@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Paint</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        <input type="color" id="color">
+        <input type="color" id="color2" value="#FFFFFF">
+        <button id="picker"></button>
+        <button id="pencil" class="active"></button>
+        <button id="line"></button>
+        <button id="care"></button>
+        <button id="circle"></button>
+        <button id="text">TEXT</button>
+        <button id="gomme"></button>
+        <button id="new"></button>
+        <button id="undo">UNDO</button>
+        <button id="redo">REDO</button>
+        <input type="range" id="size" min="1" value="10">
+        <span id="sizepx">10</span>
+        <span>px</span>
+        <input type="checkbox" id="fill">
+
+        <button id="save"></button>
+    </nav>
+    <canvas id="canvas" width=800 height=500>
+        Oh non ! Votre navigateur ne reconnait pas la balise
+    </canvas>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="js/paint.js"></script>
+</body>
+</html>
